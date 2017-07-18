@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-/* Header */
+/* Header section */
 
 header {
   font-family: Verdana;
@@ -14,7 +14,6 @@ header {
   border-bottom: thin solid black;
   margin: 5px 0;
   padding: 5px 0;
-
 }
 
 .logo {
@@ -35,4 +34,53 @@ nav li {
 
 nav a {
   color: black;
+}
+
+/*Main section*/
+
+main * {
+  border: thin solid black;
+}
+
+main {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+}
+
+/* Main story headline*/
+main h1 {
+  font-weight: bold;
+  font-size: 40 px;
+  color: white;
+}
+
+/* Other stories headline*/
+main h2 {
+  font-weight: bold;
+  font-size: 30 px;
+}
+
+/* Photo background headlines */
+main h3 {
+  font-weight: bold;
+  font-size: 30 px;
+  color: white;
+}
+
+.column {
+  /*display: flex;*/
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
